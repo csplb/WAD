@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>WAD - Forms</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>HTML Forms</h1>
+        </header>
+
+        <nav>
+            <b>Menu</b> <a href="index.html">[Basic HTML]</a> <a href="table.html">[Table]</a> <a href="forms.html">[Forms]</a>
+        </nav>
+
+        <article>
+            <h2>HTML form example</h2>
+
+            <ul>
+                <li>A HTML form can contain input elements like: text fields, checkboxes, radio buttons, submit and
+                    reset buttons,</li>
+                <li>A form can alco contains elements like: selection lists, textarea, fieldset, legend and labels</li>
+            </ul>
+
+            <h2>HTML form example</h2>
+
+            <form action="#" method="POST">
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input id="name" type="text" name="name" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="age">Age:</label></td>
+                        <td><input id="age" type="number" name="age" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="country">Country:</label></td>
+                        <td>
+                            <select id="country" name="country">
+                                <option>Poland</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <h3>Order:</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label><input type="checkbox" name="php" /> PHP</label>
+                            <label><input type="checkbox" name="cpp" /> C/C++</label>
+                            <label><input type="checkbox" name="java" /> Java</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <h3>Payment:</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label><input type="radio" name="payment" value="euro" /> Eurocard</label>
+                            <label><input type="radio" name="payment" value="visa" /> Visa</label>
+                            <label><input type="radio" name="payment" value="mastercard" /> Mastercard</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Submit" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+        </article>
+
+        <footer>
+            Copyright &copy; WAD 2018
+        </footer>
+    </div>
+</body>
+
+</html>

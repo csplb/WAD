@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>WAD - Table</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>HTML Basic</h1>
+        </header>
+
+        <nav>
+            <b>Menu</b> <a href="index.html">[Basic HTML]</a> <a href="table.html">[Table]</a> <a href="forms.html">[Forms]</a>
+        </nav>
+
+        <article>
+            <h2>HTML table tags</h2>
+
+            <ul>
+                <li>Tables are defined with the &lt;table&gt; tag</li>
+                <li>A table is divided into rows (with the &lt;tr&gt; tag), and each row is divided into data cells
+                    (with the &lt;td&gt; tag)</li>
+                <li>td stands for "table data" and holds the content of a data cell. A &lt;td&gt; tag can contain text,
+                    links, images, lists, forms, other tables, etc.</li>
+            </ul>
+
+            <h2>The table example</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td colspan="3">Statists for websites - usage of technologies</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Top in frameworks</td>
+                        <td>Oct. 2013</td>
+                        <td>June 2013</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">%</td>
+                    </tr>
+                    <tr>
+                        <td>PHP</td>
+                        <td>38.55</td>
+                        <td>37.34</td>
+                    </tr>
+                    <tr>
+                        <td>ASP.NET</td>
+                        <td>22.75</td>
+                        <td>24.32</td>
+                    </tr>
+                    <tr>
+                        <td>Java EE</td>
+                        <td>8.06</td>
+                        <td>8.15</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><a href="http://trends.buildwith.com/framework">Based on:
+                                http://trends.buildwith.com/framework</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+
+
+        </article>
+
+        <footer>
+            Copyright &copy; WAD 2018
+        </footer>
+    </div>
+</body>
+
+</html>
