@@ -32,3 +32,33 @@ thead, tfoot {
 .negative {
     background-color: pink;
 }
+
+nav {
+    width: 20%;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.2em;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+article {
+    float: right;
+    width: 80%;
+}
+
+footer {
+    clear: both;
+    padding-top: 50px;
+    text-align: center;
+}
