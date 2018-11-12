@@ -7,3 +7,28 @@ div#container {
     width: 90%;
     margin: auto;
 }
+
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5em;
+}
+
+table#main td {
+    border: 1px black solid;    
+}
+
+thead, tfoot {
+    text-align: center;
+}
+
+.positive {
+    background-color: lime;
+}
+
+.negative {
+    background-color: pink;
+}
