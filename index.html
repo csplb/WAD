@@ -5,6 +5,12 @@
     <meta charset="utf-8" />
     <title>WAD - Index</title>
     <link rel="stylesheet" href="style.css" />
+
+    <script>
+        function show() {
+            document.getElementById('menu').style.display = 'block';
+        }
+    </script>
 </head>
 
 <body>
@@ -13,7 +19,9 @@
             <h1>HTML Basic</h1>
         </header>
 
-        <nav>
+        <button onclick="show()" id="collapse">Expand</button>
+
+        <nav id="menu">
             <ul>
                 <li><a href="index.html">[Basic HTML]</a></li>
                 <li><a href="table.html">[Table]</a></li>
@@ -32,6 +40,8 @@
                 <li>ordered lists are defined with the &lt;ol&gt; tag</li>
                 <li>unordered lists are defined with the &lt;ul&gt; tag</li>
             </ul>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et labore, enim ex quibusdam magnam amet omnis molestiae distinctio aliquid nam, recusandae alias, provident odio molestias cumque accusamus est. Veniam, eum?</p>
 
             <img src="images/html5.png" alt="HTML5 logo" />
 

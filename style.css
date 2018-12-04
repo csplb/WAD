@@ -6,6 +6,7 @@ body {
 div#container {
     width: 90%;
     margin: auto;
+    max-width: 1000px;
 }
 
 table {
@@ -61,4 +62,32 @@ footer {
     clear: both;
     padding-top: 50px;
     text-align: center;
+}
+
+button#collapse {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    background-color: palevioletred;
+    color: red;
+}
+
+@media screen and (max-width: 360px) {
+    article {
+        float: none;
+    }
+
+    nav {
+        float: none;
+        display: none;
+    }
+
+    button#collapse {
+        display: block;
+    }
 }
