@@ -73,8 +73,7 @@ button#collapse {
 }
 
 .error {
-    background-color: palevioletred;
-    color: red;
+    border: 2px red solid;
 }
 
 @media screen and (max-width: 360px) {
