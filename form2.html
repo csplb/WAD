@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>WAD - Forms</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js"></script>
+    <script>
+        function calculate() {
+            if (isNaN(document.getElementById('one').value)) {
+                document.getElementById('one').className = 'error';
+                document.getElementById('error-one').innerText = 'Value is wrong!';
+            } else {
+
+                var one = parseInt(document.getElementById('one').value);
+                var two = parseInt(document.getElementById('two').value);
+
+                document.getElementById('result').value = one + two;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>HTML Forms</h1>
+        </header>
+
+        <button id="collapse">Collapse</button>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">[Basic HTML]</a></li>
+                <li><a href="table.html">[Table]</a></li>
+                <li><a href="forms.html">[Forms]</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h2>HTML form example</h2>
+
+            <ul>
+                <li>A HTML form can contain input elements like: text fields, checkboxes, radio buttons, submit and
+                    reset buttons,</li>
+                <li>A form can alco contains elements like: selection lists, textarea, fieldset, legend and labels</li>
+            </ul>
+
+            <h2>HTML form example</h2>
+
+            <input id="one" /> <p id="error-one" class="error"></p>
+            <input id="two" />
+
+            <input id="result" />
+
+            <button onclick="calculate()">Calculate</button>
+
+        </article>
+
+        <footer>
+            Copyright &copy; WAD 2018
+        </footer>
+    </div>
+    <script>
+        document.getElementById('collapse').onclick = show;
+    </script>
+</body>
+
+</html>
